@@ -3,9 +3,10 @@ body {padding: 0;
 }
 div input {width: 250px;
            height: 40px;
-           border-radius: 10px;
+           border-radius: 20px;
            background-color: rgb(99, 44, 151);
            outline: none;
+           margin: 50px auto;
 }
 li {border: 1px solid #777;
     list-style: none;
