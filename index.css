@@ -1,12 +1,16 @@
 body {padding: 0;
       margin: 0;
 }
-div input {width: 250px;
-           height: 40px;
-           border-radius: 20px;
+div:nth-child(1) {text-align: center;
+}
+div input {width: 70%;
+           height: 45px;
+           border-radius: 50px;
            background-color: rgb(99, 44, 151);
            outline: none;
-           margin: 50px auto;
+           color: white;
+           padding-left: 10px;
+           margin: 30px auto;
 }
 li {border: 1px solid #777;
     list-style: none;
@@ -14,4 +18,18 @@ li {border: 1px solid #777;
     font-size: 24px;
 }
 li h1 {color: rgb(99, 44, 151);
+}
+
+@media (min-width: 729px){
+    div input {height: 70px;
+               width: 55%;
+               font-size: 22px;
+    }
+}
+
+@media (min-width: 1425px){
+    div input {height: 80px;
+               width: 50%;
+               font-size: 22px;
+    }
 }
